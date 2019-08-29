@@ -1,0 +1,63 @@
+/*General document styling - see other file for flexbox specific styles*/
+body {
+  background-color: dimgray;
+}
+
+.section {
+  width: 100vw;
+  height: 90vh;
+  overflow: auto;
+  &__one {
+    background-color: firebrick;
+  }
+  &__two {
+    background-color: orangered;
+  }
+  &__three {
+    background-color: orange;
+  }
+  &__four {
+    background-color: yellow;
+  }
+  &__five {
+    background-color: palegoldenrod;
+  }
+}
+
+.feature{ /* Contains styles specific to flexbox features*/
+  width: 90vw;
+  height:35vh;
+  background-color: darkgrey;
+  margin: 5vh 5vw;
+  &__description{
+    background-color: transparent;
+  }
+  &__display{
+
+  }
+}
+
+.heading {
+  color: white;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  vertical-align: middle; /*works as long as line-height is set in parent*/
+  &__main{
+    text-align: center;
+    font-size: 10vw;
+  }
+  &__feature{
+    font-size: 5vw;
+  }
+}
+
+.explanation{
+  color: white;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#header {
+  line-height: 30vh;
+  background-color: darkslateblue;
+  width: 100vw;
+  height: 30vh;
+}
