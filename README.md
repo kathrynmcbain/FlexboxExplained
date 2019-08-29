@@ -5,4 +5,4 @@ Webpage contining my best efforts at explaining flexbox for beginners! Note: im 
 
 The file containing flexbox styles is called features.css.
 
-General styling of the webpage uses LESS.
+pageStyles.css contains general styling of the webpage was written using LESS.
