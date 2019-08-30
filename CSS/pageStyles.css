@@ -24,13 +24,27 @@ body {
 }
 .feature {
   /* Contains styles specific to flexbox features*/
+  margin: 5vh 5vw;
+}
+.feature__display {
   width: 90vw;
   height: 35vh;
   background-color: darkgrey;
-  margin: 5vh 5vw;
 }
 .feature__description {
-  background-color: transparent;
+  width: 50vw;
+  height: 35vh;
+  display: inline-block;
+  font-size: 1.5vw;
+  text-align: justify;
+}
+.feature__code {
+  display: inline-block;
+  background-color: darkslategrey;
+  width: 30vw;
+  height: 35vh;
+  color: white;
+  font-size: 1vw;
 }
 .heading {
   color: white;
@@ -43,11 +57,16 @@ body {
   font-size: 10vw;
 }
 .heading__feature {
-  font-size: 5vw;
+  font-size: 2.5vw;
 }
 .explanation {
   color: white;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.container--1 {
+  /*Used for grouping feature components to display in-line*/
+  width: 100vw;
+  display: flex;
 }
 #header {
   line-height: 30vh;

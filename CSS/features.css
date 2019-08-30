@@ -1,12 +1,11 @@
 /*Contains the flexbox styles*/
-.flex-container {
+.Example_flex_direction {
      display: flex;
      flex-direction: column;
-     background-color: DodgerBlue;
  }
 
-.flex-container > div {
-    background-color: #f1f1f1;
+.Example_flex_direction > div {
+    background-color: orangered;
     width: 100px;
     margin: 10px;
     text-align: center;
