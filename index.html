@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="CSS/pageStyles.css">
+    <link rel="stylesheet" href="CSS/features.css">
+</head>
+<body>
+<div id="header">
+    <div class="heading heading__main">Flexbox Chat</div>
+</div>
+<!--FLEX DIRECTION -->
+<div class="section section__one">
+    <div class="feature feature__display">
+        <div class="Example_flex_direction">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+        </div>
+    </div>
+    <div class="container--1">
+        <div class="feature feature__code">
+<pre>
+<code>
+    .Example_flex_direction {
+        background-color: darkgrey;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Example_flex_direction > div {
+        background-color: orangered;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+    }
+</code>
+</pre>
+        </div>
+        <div class="feature feature__description">
+            <div class="heading heading__feature">Flex Direction</div>
+            <div class="explanation">
+                <p>
+                    Flex-direction allows us to specify the direction we want blocks to display. We can stack them
+                    vertically by specifying <b>'flex-direction: column;'</b>.<br>
+                    There are other ways we can use flex-direction.<br>
+                    <b>'flex-direction: row;'</b> will display the blocks in order horizontally.<br>
+                    <b>'flex-direction: row-reverse;'</b> will do the same but in reverse order - so 3,2,1.<br>
+                    <b>'flex-direction: column-reverse;'</b> will display as above, but in reverse order again.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--FLEX DIRECTION -->
+<div class="section section__two"></div>
+<div class="section section__three"></div>
+<div class="section section__four"></div>
+<div class="section section__five"></div>
+
+
+</body>
+</html>
